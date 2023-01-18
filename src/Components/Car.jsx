@@ -1,8 +1,8 @@
 import React from 'react'
 function Car() {
   return (
-    <div className='w-full flex bg-white py-16 px-16 justify-between '>
-      <div className='max-w-[1024px] mx-auto grid md:grid-cols-2 gap-4' >
+    <div className='w-full bg-white py-16 px-16 justify-between grid md:grid-cols-2 max-h-[720px] sm:grid-rows-2'>
+      <div className='max-w-[1024px] mx-auto gap-4' >
         <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Mahindra-Scorpio-N-300620221053.jpg&w=872&h=578&q=75&c=1" alt="car" className='w-[500px] mx-auto my-4' />
 
       </div>
